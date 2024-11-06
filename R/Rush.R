@@ -191,6 +191,14 @@ Rush = R6::R6Class("Rush",
     },
 
     #' @description
+    #' Reconnect to Redis.
+    #' The connection breaks when the Rush object is saved to disk.
+    #' Call this method to reconnect after loading the object.
+    reconnect = function() {
+      self$connector = redux::hiredis(self$config)
+    },
+
+    #' @description
     #' Start workers locally with `processx`.
     #' The [processx::process] are stored in `$processes`.
     #' Alternatively, use `$create_worker_script()` to create a script for starting workers on remote machines.
@@ -473,7 +481,7 @@ Rush = R6::R6Class("Rush",
 
       # check local workers without a heartbeat
       local_workers = r$SMEMBERS(private$.get_key("local_workers"))
-      lost_workers_local = if (length(local_workers)) {
+      lost_workers_local = if (length(local_workers) && !is.null(self$processes)) {
         # lg$debug("Checking %i worker(s) with process id", length(local_workers))
         running = map_lgl(local_workers, function(worker_id) self$processes[[worker_id]]$is_alive())
         if (all(running)) return(invisible(self))

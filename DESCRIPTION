@@ -1,6 +1,6 @@
 Package: rush
 Title: Rapid Parallel and Distributed Computing
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: 
     person("Marc", "Becker", , "marcbecker@posteo.de", role = c("cre", "aut", "cph"),
            comment = c(ORCID = "0000-0002-8115-0400"))
@@ -17,11 +17,11 @@ Suggests: callr, knitr, rmarkdown, testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Config/testthat/parallel: false
 Encoding: UTF-8
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2
 License: MIT + file LICENSE
 NeedsCompilation: no
-Packaged: 2024-07-05 11:11:05 UTC; marc
+Packaged: 2024-11-06 16:16:51 UTC; marc
 Author: Marc Becker [cre, aut, cph] (<https://orcid.org/0000-0002-8115-0400>)
 Maintainer: Marc Becker <marcbecker@posteo.de>
 Repository: CRAN
-Date/Publication: 2024-07-05 11:30:02 UTC
+Date/Publication: 2024-11-06 16:30:02 UTC
