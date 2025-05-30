@@ -1,27 +1,31 @@
 Package: rush
-Title: Rapid Parallel and Distributed Computing
-Version: 0.1.2
+Title: Rapid Asynchronous and Distributed Computing
+Version: 0.2.0
 Authors@R: 
     person("Marc", "Becker", , "marcbecker@posteo.de", role = c("cre", "aut", "cph"),
            comment = c(ORCID = "0000-0002-8115-0400"))
-Description: Parallel computing with a network of local and remote
-    workers. Fast exchange of results between the workers through a
-    'Redis' database. Key features include task queues, local caching, and
-    sophisticated error handling.
-URL: https://github.com/mlr-org/rush
+Description: Package to tackle large-scale problems asynchronously across
+    a distributed network. Employing a database centric model, rush
+    enables workers to communicate tasks and their results over a shared
+    'Redis' database. Key features include low task overhead, efficient
+    caching, and robust error handling. The package powers the
+    asynchronous optimization algorithms in the 'bbotk' and 'mlr3tuning'
+    packages.
+License: MIT + file LICENSE
+URL: https://rush.mlr-org.com, https://github.com/mlr-org/rush
 BugReports: https://github.com/mlr-org/rush/issues
 Depends: R (>= 3.1.0)
-Imports: checkmate, data.table, jsonlite, lgr, mlr3misc, parallel,
-        processx, redux, R6, uuid
-Suggests: callr, knitr, rmarkdown, testthat (>= 3.0.0)
+Imports: checkmate, data.table, ids, jsonlite, lgr, mirai (>= 2.0.0),
+        mlr3misc, parallel, processx, R6, redux, uuid
+Suggests: callr, knitr, quarto, rmarkdown, testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Config/testthat/parallel: false
 Encoding: UTF-8
 RoxygenNote: 7.3.2
-License: MIT + file LICENSE
 NeedsCompilation: no
-Packaged: 2024-11-06 16:16:51 UTC; marc
-Author: Marc Becker [cre, aut, cph] (<https://orcid.org/0000-0002-8115-0400>)
+Packaged: 2025-05-30 08:21:40 UTC; marc
+Author: Marc Becker [cre, aut, cph] (ORCID:
+    <https://orcid.org/0000-0002-8115-0400>)
 Maintainer: Marc Becker <marcbecker@posteo.de>
 Repository: CRAN
-Date/Publication: 2024-11-06 16:30:02 UTC
+Date/Publication: 2025-05-30 10:00:07 UTC
