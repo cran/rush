@@ -1,9 +1,9 @@
-baddac3ef559a4761c166e86a9fe33f1 *DESCRIPTION
+a02acbdcbfd522fec54d1ec7b4b02f88 *DESCRIPTION
 06b7775a97fd85ded29245db31f160f3 *LICENSE
 3efe226c1d13c6545ab5ed3d56191b9b *NAMESPACE
-904b722c250db6b84efe4debae4dd2f0 *NEWS.md
+ccb8ca0fddf458dfbcc46ae0880a7243 *NEWS.md
 1c67e4484c2a114a6685dfecc8dac434 *R/AppenderRedis.R
-d6794739137a44bd0084f4b035d8f121 *R/Rush.R
+9f8cc9b79df818e1df49e2506a8cd586 *R/Rush.R
 95ec868c1375c1b5eaa5a6b27af44af3 *R/RushWorker.R
 656b52b9e53c9b21b4f511e4380d7618 *R/assertions.R
 2b1f0b770d1543dbb2706f8815d093c9 *R/heartbeat_loops.R
@@ -15,7 +15,7 @@ ad9c7c8a834ce207d572746bc04b4255 *R/sugar.R
 1ead43fe09932fb37479b2600e0d296d *R/zzz.R
 0f7f6b5b0b7ac43f36f8ce22f7b2b49e *README.md
 b2565ae4bfd232c6e999fb852e35fe6a *man/AppenderRedis.Rd
-98cd77462906622b81946d3a06262784 *man/Rush.Rd
+3953bc21477bc754d5990619b2659220 *man/Rush.Rd
 1e7ecd06a005de696981e4eee86a06f5 *man/RushWorker.Rd
 0d199685d7544d6b3df9dc94ba0d96de *man/filter_custom_fields.Rd
 1af983edc85f04ee0ebac6084b696e58 *man/get_hostname.Rd
