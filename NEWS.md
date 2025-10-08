@@ -1,4 +1,11 @@
+# rush 0.4.0
+
+feat: Add `$empty_queue()` method.
+fix: Queued tasks can be moved to failed now.
+
 # rush 0.3.1
+
+feat: Change default of `n_workers`.
 
 # rush 0.3.0
 
