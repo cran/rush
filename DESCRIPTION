@@ -1,6 +1,6 @@
 Package: rush
 Title: Rapid Asynchronous and Distributed Computing
-Version: 0.4.0
+Version: 0.4.1
 Authors@R: 
     person("Marc", "Becker", , "marcbecker@posteo.de", role = c("cre", "aut", "cph"),
            comment = c(ORCID = "0000-0002-8115-0400"))
@@ -23,9 +23,9 @@ Config/testthat/parallel: false
 Encoding: UTF-8
 RoxygenNote: 7.3.3
 NeedsCompilation: no
-Packaged: 2025-10-08 11:25:55 UTC; marc
+Packaged: 2025-11-06 09:21:09 UTC; marc
 Author: Marc Becker [cre, aut, cph] (ORCID:
     <https://orcid.org/0000-0002-8115-0400>)
 Maintainer: Marc Becker <marcbecker@posteo.de>
 Repository: CRAN
-Date/Publication: 2025-10-08 11:40:02 UTC
+Date/Publication: 2025-11-06 09:30:02 UTC
